@@ -1,6 +1,6 @@
 {
   "name": "node-gugu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "咕咕机 SDK node 封装。",
   "main": "./lib/index.js",
   "scripts": {
