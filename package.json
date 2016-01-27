@@ -1,0 +1,29 @@
+{
+  "name": "node-gugu",
+  "version": "1.0.0",
+  "description": "咕咕机 SDK node 封装。",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dofy/node-gugu.git"
+  },
+  "keywords": [
+    "gugu"
+  ],
+  "author": {
+    "email": "dofyyu@gmail.com",
+    "name": "Seven Yu"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dofy/node-gugu/issues"
+  },
+  "homepage": "https://github.com/dofy/node-gugu#readme",
+  "dependencies": {
+    "iconv-lite": "^0.4.13",
+    "request": "^2.67.0"
+  }
+}
