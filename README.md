@@ -9,14 +9,21 @@ _打印内容暂时只支持文本_
 var gugu = require('node-gugu');
 var printid;
 
-// init gugu
+// 初始化 gugu
 gugu({
     ak: '{your ak}',
     memoid: {memobirdid},
     userid: {useridentifying}
+}, function(data) {
+    console.log('咕咕准备好啦。');
 });
 
-// print contents
+// ---------------------------------------
+// 咕咕准备好后(setuserbind)可调用如下接口
+// 或者在初始化回调中调用(参考 test.js)
+// ---------------------------------------
+
+// 打印内容
 gugu.printpaper([
     'line one',
     'line two'
@@ -25,7 +32,7 @@ gugu.printpaper([
     console.log(data);
 });
 
-// check print status
+// 查看打印状态
 gugu.getprintstatus(printid, function(data) {
     console.log(data);
 });
