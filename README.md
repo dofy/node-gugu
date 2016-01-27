@@ -4,6 +4,13 @@
 
 _打印内容暂时只支持文本_
 
+## Install
+
+```
+npm install node-gugu
+```
+
+## How to use
 
 ```javascript
 var gugu = require('node-gugu');
