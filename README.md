@@ -12,8 +12,8 @@ var printid;
 // 初始化 gugu
 gugu({
     ak: '{your ak}',
-    memoid: {memobirdid},
-    userid: {useridentifying}
+    memoid: '{memobirdid}',
+    userid: '{useridentifying}'
 }, function(data) {
     console.log('咕咕准备好啦。');
 });
